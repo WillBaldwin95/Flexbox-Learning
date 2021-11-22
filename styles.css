@@ -85,7 +85,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 5 media items */
@@ -121,4 +123,10 @@ li{
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+.cor-blimey{
+    font-family: cursive;
+    font-style: normal;
+    font-size: larger;
+    text-align: center;
 }
