@@ -57,6 +57,9 @@ header {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -65,7 +68,9 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 iframe { 
@@ -107,4 +112,12 @@ ul{
 }
 .push{
     margin-left: auto;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
 }
